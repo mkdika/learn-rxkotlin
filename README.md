@@ -17,6 +17,8 @@ These are some libraries and its version  which I use during this learning.
 ## References
 
 - [RX Java with Kotlin in Baby Steps](https://youtu.be/YPf6AYDaYf8)
+- [Understanding Types Of Observables In RxJava](https://blog.mindorks.com/understanding-types-of-observables-in-rxjava-6c3a2d0819c8)
+- [RxJava Tutorial Baeldung](https://www.baeldung.com/rxjava-tutorial)
 
 ## Copyright and License
 
