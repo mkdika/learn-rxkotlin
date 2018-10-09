@@ -20,6 +20,10 @@ These are some libraries and its version  which I use during this learning.
 - [Understanding Types Of Observables In RxJava](https://blog.mindorks.com/understanding-types-of-observables-in-rxjava-6c3a2d0819c8)
 - [RxJava Tutorial Baeldung](https://www.baeldung.com/rxjava-tutorial)
 
+### Books
+
+- [Reactive Programming in Kotlin](https://www.packtpub.com/application-development/reactive-programming-kotlin)
+
 ## Copyright and License
 
 Copyright 2018 Maikel Chandika (mkdika@gmail.com). Code released under the 
