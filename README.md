@@ -4,6 +4,15 @@
 
 Code snippets for RxKotlin practice and features example.
 
+## Library and Stacks
+
+These are some libraries and its version  which I use during this learning.
+
+- Java8 (JDK 8 update 171)
+- [Kotlin 1.2.71](https://kotlinlang.org/)
+- [RxKotlin 2.3.0](https://github.com/ReactiveX/RxKotlin)
+- [Gradle 4.8.1](https://gradle.org/)
+
 ## References
 
 _Coming soon.._
