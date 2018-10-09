@@ -15,7 +15,7 @@ These are some libraries and its version  which I use during this learning.
 
 ## References
 
-_Coming soon.._
+- [RX Java with Kotlin in Baby Steps](https://youtu.be/YPf6AYDaYf8)
 
 ## Copyright and License
 

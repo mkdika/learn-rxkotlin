@@ -2,7 +2,6 @@ package observables
 
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.rxkotlin.toObservable
-import java.util.concurrent.TimeUnit
 
 fun main(args: Array<String>) {
 
