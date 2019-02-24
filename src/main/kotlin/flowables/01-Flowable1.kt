@@ -11,14 +11,14 @@ import kotlinx.coroutines.runBlocking
  */
 fun main() {
     Flowable.range(1, 1000)
-            .map {
-                MyItem(it)
-            }
-            .observeOn(Schedulers.io())
-            .subscribe({
-                println("Received $it")
-                runBlocking { delay(100) }
-            }, { it.printStackTrace() })
+        .map {
+            MyItem(it)
+        }
+        .observeOn(Schedulers.io())
+        .subscribe({
+            println("Received $it")
+            runBlocking { delay(100) }
+        }, { it.printStackTrace() })
     runBlocking { delay(60000) }
 }
 

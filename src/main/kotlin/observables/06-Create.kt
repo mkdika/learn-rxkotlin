@@ -12,11 +12,11 @@ fun main() {
         it.onComplete() // State onComplete explicitly or observer's onComplete method will never be called.
     }
     observable.subscribeBy(
-            onNext = {
-                println("Received: $it")
-            },
-            onComplete = {
-                println("Done, received all!")
-            }
+        onNext = {
+            println("Received: $it")
+        },
+        onComplete = {
+            println("Done, received all!")
+        }
     )
 }

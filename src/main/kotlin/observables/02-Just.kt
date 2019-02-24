@@ -5,15 +5,14 @@ import io.reactivex.rxkotlin.subscribeBy
 
 
 fun main() {
-
     Observable.just("A String")
-            .subscribeBy(
-                    onNext = {
-                        println("Length is ${it.length}")
-                    },
-                    onComplete = {
-                        println("Its complete!")
-                    }
-            )
+        .subscribeBy(
+            onNext = {
+                println("Length is ${it.length}")
+            },
+            onComplete = {
+                println("Its complete!")
+            }
+        )
 
 }

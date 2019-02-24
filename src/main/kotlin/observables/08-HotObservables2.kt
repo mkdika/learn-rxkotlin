@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit
 
 fun main() {
     val connectableObservable =
-            Observable.interval(100, TimeUnit.MILLISECONDS)
-                    .publish()
+        Observable.interval(100, TimeUnit.MILLISECONDS)
+            .publish()
     connectableObservable.subscribe({ println("Subscription 1: $it") })
     connectableObservable.subscribe({ println("Subscription 2 $it") })
     connectableObservable.connect()
