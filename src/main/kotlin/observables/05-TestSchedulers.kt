@@ -3,7 +3,7 @@ package observables
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 
-fun main(args: Array<String>) {
+fun main() {
 
     // print nothing to stdout
     Observable.just(5,6,7)

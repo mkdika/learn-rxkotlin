@@ -3,7 +3,7 @@ package observables
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.toObservable
 
-fun main(args: Array<String>) {
+fun main() {
     val observable: Observable<String> = listOf("String 1", "String 2", "String 3", "String 4").toObservable()//1
 
     observable.subscribe(

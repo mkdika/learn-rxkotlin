@@ -2,14 +2,14 @@ package flowables
 
 import io.reactivex.Flowable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
 /**
  * Flowable are same as Observable, except Flowable have a backpressure feature.
  * Default buffer for backpressure is 128.
  */
-fun main(args: Array<String>) {
+fun main() {
     Flowable.range(1, 1000)
             .map {
                 MyItem(it)

@@ -4,7 +4,7 @@ import io.reactivex.Observable
 import io.reactivex.rxkotlin.subscribeBy
 
 
-fun main(args: Array<String>) {
+fun main() {
 
     Observable.just("A String")
             .subscribeBy(

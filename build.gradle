@@ -1,5 +1,5 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.2.71'
+    id 'org.jetbrains.kotlin.jvm' version '1.3.21'
 }
 
 group 'com.mkdika'
@@ -12,8 +12,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile 'io.reactivex.rxjava2:rxkotlin:2.3.0'
-    compile project(':kotlinx-coroutines-reactive')
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.30.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1"
 }
 
 compileKotlin {

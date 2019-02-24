@@ -3,7 +3,7 @@ package observables
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.rxkotlin.toObservable
 
-fun main(args: Array<String>) {
+fun main() {
 
     val list = listOf("Alpha", "Beta", "Gamma", "Delta", "Epsilon")
 

@@ -2,12 +2,12 @@ package flowables
 
 import io.reactivex.Flowable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import org.reactivestreams.Subscriber
 import org.reactivestreams.Subscription
 
-fun main(args: Array<String>) {
+fun main() {
     Flowable.range(1, 15)
             .map { MyItem6(it) }
             .observeOn(Schedulers.io())

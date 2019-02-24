@@ -1,11 +1,11 @@
 package observables
 
 import io.reactivex.Observable
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import java.util.concurrent.TimeUnit
 
-fun main(args: Array<String>) {
+fun main() {
     val connectableObservable =
             Observable.interval(100, TimeUnit.MILLISECONDS)
                     .publish()

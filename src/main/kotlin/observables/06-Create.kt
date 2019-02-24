@@ -3,7 +3,7 @@ package observables
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.subscribeBy
 
-fun main(args: Array<String>) {
+fun main() {
 
     val observable = Observable.create<Int> {
         it.onNext(5)
