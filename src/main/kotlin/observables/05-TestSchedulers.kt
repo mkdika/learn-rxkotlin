@@ -1,6 +1,7 @@
 package observables
 
 import io.reactivex.Observable
+import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers
 
 fun main() {
@@ -9,5 +10,6 @@ fun main() {
     Observable.just(5, 6, 7)
         .subscribeOn(Schedulers.io())
         .map { ";-}".repeat(it) }
-        .subscribe(::println)
+        .subscribeBy(::println)
+
 }
